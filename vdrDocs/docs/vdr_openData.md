@@ -4,12 +4,11 @@ mairie_val_de_reuil
 
 ## Tâches
 
-- [ ] [[#titre]]
-- [ ] [[#titre2]]
-- [ ] [[#titre3]]
-- [ ] [[#titre4]]
+- [ ] [[#titre]
+- [ ] [[#titre2]
+- [ ] [[#titre3]
+- [ ] [[#titre4]
 
----
 
 Une esquisse de recommandation open data est une proposition ou une suggestion visant à encourager l'utilisation et la diffusion des données ouvertes (open data). Les données ouvertes sont des informations numériques qui sont mises à disposition du public de manière libre, gratuite et réutilisable.
 
