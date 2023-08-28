@@ -1,0 +1,55 @@
+site_name: Val-de-Reuil-docs
+nav:
+site_url: 
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.hightlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: fr
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: switch to dark mode
+      primary: teal
+      accent: blue
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: switch to dark mode
+      primary: teal
+      accent: lime
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+
+extra:
+  version:
+    provider: mike
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/FofoMalo" target "_blank" rel="glp3">Florent Malo</a>
+
